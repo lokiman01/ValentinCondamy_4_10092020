@@ -656,7 +656,7 @@ a {
 }
 
 .container {
-    max-width: 1000px;
+    max-width: 2560px;
 }
 
 .hero-bloc-text {
@@ -777,7 +777,7 @@ h4 {
 
 .tc-white {
     text-align: center;
-    color: black;
+    color: white;
 }
 
 .btn-atomic-tangerine {
@@ -982,7 +982,7 @@ h4 {
     .bloc-xxl,
     .bloc-xl,
     .bloc-lg {
-        padding: 40px 0;
+        padding: 40px;
     }
     .bloc-sm,
     .bloc-md {
