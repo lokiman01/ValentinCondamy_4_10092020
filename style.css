@@ -8,12 +8,16 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-a,
-button {
+a,button {
     transition: all .3s ease-in-out;
     outline: none!important;
+    
 }
-
+a{
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+}
 a:hover {
     text-decoration: none;
     cursor: pointer;
@@ -513,9 +517,9 @@ button {
     width: 100%;
     max-width: 450px;
     height: 30px;
-    padding: 6px 12px;
+    padding: 12px;
     font-size: 14px;
-    color: #555;
+    color: #554;
     background-color: #fff;
 
 }
@@ -687,7 +691,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 18px;
 }
 
 .tight-width-whitespace {
@@ -704,7 +708,7 @@ p {
     margin-top: 22px;
     color: #FFFFFF!important;
     text-transform: uppercase;
-    padding: 12px 28px 12px 28px;
+    padding: 12px 190px 12px 190px;
     font-size: 16px;
     font-weight: 700;
 }
@@ -791,6 +795,7 @@ h4 {
 .btn-atomic-tangerine {
     background: #F3976C;
     color: #FFFFFF!important;
+    border-radius: 15px;
 }
 
 .btn-atomic-tangerine:hover {
@@ -1021,7 +1026,7 @@ h4 {
         margin-top: 30px;
     }
     form {
-        padding: 5px;
+        padding: 10px;
     }
     .close-lightbox {
         display: inline-block;
@@ -1037,10 +1042,13 @@ h4 {
         height: 320px;
     }
 }
-.labelctnr{
-    width: 500px;
-}
+label {
 
+    display: inline-block;
+    max-width: 100%;
+    margin: 5px;
+    font-weight: bold;
+}
 @media (max-width: 400px) {
     .bloc {
         padding-left: 0;
@@ -1052,4 +1060,7 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+    .form-control{
+        width: 100%;
+     }
 }
